@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "CSS base styles for extend cata-base package",
   "author": "Raúl Hernández",
+  "repository": "raulghm/cata-base-extend",
   "scripts": {
     "build": "npm run setup && npm run preprocess",
     "build-test": "npm run setup && npm run preprocess-test",
