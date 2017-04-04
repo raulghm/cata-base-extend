@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>SUIT CSS - Cata base extend</title>
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="../build/test.css">
+<style>
+  body {
+    font-size: 16px;
+  }
+
+  .Test-run {
+    line-height: 1;
+  }
+
+  .dev-highlight {
+    background: lightblue;
+  }
+
+  .box-sizing-elem {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  #iframe iframe {
+    background-clip: content-box;
+  }
+
+  #tabindex a:focus,
+  #tabindex button:focus {
+    outline: 5px solid red;
+  }
+</style>
+
+<div class="Test">
+  <h1 class="Test-title">Suit CSS: <a href="https://github.com/raulghm/cata-base">cata-base-extend</a> styles tests</h1>
+
+  <h2 class="Test-describe">font-size</h2>
+  <h3 class="Test-it">
+    html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.6rem = 16px.
+    Is necessary set the font-size in body tag in pixels.
+  </h3>
+  <div class="Test-run">
+    <h1 class="dev-highlight">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus quo cumque rem atque eius, velit est ipsum, suscipit ab assumenda incidunt, pariatur eveniet nostrum blanditiis, quaerat porro reprehenderit inventore!
+    </h1>
+  </div>
+
+  <h3 class="Test-it">
+    The next text has property font-size: 1.6rem;
+  </h3>
+  <div class="Test-run">
+    <h1 class="dev-highlight" style="font-size: 1.6rem;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus quo cumque rem atque eius, velit est ipsum, suscipit ab assumenda incidunt, pariatur eveniet nostrum blanditiis, quaerat porro reprehenderit inventore!
+    </h1>
+  </div>
+
+  <h2 class="Test-describe">hidden</h2>
+  <h3 class="Test-it">Makes the hidden attribute works even when an element is styled display: flex</h3>
+  <div class="Test-run">
+    <div class="dev-highlight" hidden>content</div>
+  </div>
+</div>

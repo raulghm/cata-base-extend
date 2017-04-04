@@ -1,0 +1,23 @@
+/**
+ * cata-base-extend
+ *
+ * I recommended use this package with cata-base
+ */
+
+/**
+ * html is set to 62.5% so that all the REM measurements
+ * are based on 10px sizing. So basically 1.6rem = 16px
+ */
+
+html {
+  font-size: 62.5%;
+}
+
+/**
+ * Makes the hidden attribute works even when an element is styled display: flex
+ * http://lists.w3.org/Archives/Public/public-whatwg-archive/2014May/0001.html
+ */
+
+[hidden] {
+  display: none !important;
+}
