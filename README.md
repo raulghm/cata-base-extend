@@ -1,5 +1,7 @@
 # Cata base extend
 
+[![Build Status](https://travis-ci.org/raulghm/cata-base-extend.svg?branch=master)](https://travis-ci.org/raulghm/cata-base-extend)
+
 `cata-base-extend` styles for `cata-base` or `suitcss-base` styles. 
 
 Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
