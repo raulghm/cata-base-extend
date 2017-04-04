@@ -8,17 +8,17 @@ Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
 
 ## Installation
 
-## NPM 
+### NPM 
 ```
 npm install cata-base-extend
 ```
 
-## Yarn
+### Yarn
 ```
 yarn add cata-base-extend
 ```
 
-## Download
+### Download
 [Download](https://github.com/raulghm/cata-base-extend/releases)
 
 ## Testing
