@@ -2,8 +2,13 @@
   "name": "cata-base-extend",
   "version": "0.1.0",
   "description": "CSS base styles for extend cata-base package",
-  "author": "Raúl Hernández",
+  "author": {
+    "name": "Raúl Hernández",
+    "email": "raulghm@gmail.com",
+    "url": "https://github.com/raulghm"
+  },
   "repository": "raulghm/cata-base-extend",
+  "homepage": "https://github.com/raulghm/cata-base-extend#readme",
   "scripts": {
     "build": "npm run setup && npm run preprocess",
     "build-test": "npm run setup && npm run preprocess-test",
